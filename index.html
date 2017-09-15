@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Calculator</title>
+<script type="text/javascript" src="basicCalculator.js"></script>
+</head>
+
+<body>
+  <h3 > Calculator </h3>
+<input type="text" id="inputField" />
+
+<br><br>
+<input type="button" id="button1" value="1" onclick="insert('1')"/>
+<input type="button" id="button2" value="2" onclick="insert('2')"/>
+<input type="button" id="button3" value="3" onclick="insert('3')"/>
+
+<input type="button" id="button/" value="/" onclick="insert('/')"/>
+
+<br><br>
+<input type="button" id="button4" value="4" onclick="insert('4')"/>
+<input type="button" id="button5" value="5" onclick="insert('5')"/>
+<input type="button" id="button6" value="6" onclick="insert('6')"/>
+
+<input type="button" id="button%" value="%" onclick="insert('%')"/>
+
+<br><br>
+<input type="button" id="button7" value="7" onclick="insert('7')"/>
+<input type="button" id="button8" value="8" onclick="insert('8')"/>
+<input type="button" id="button9" value="9" onclick="insert('9')"/>
+
+<input type="button" id="button^" value="^" onclick="insert('^')"/>
+
+<br><br>
+<input type="button" id="button0" value="0" onclick="insert('0')"/>
+<input type="button" id="button+" value="+" onclick="insert('+')"/>
+<input type="button" id="button-" value="-" onclick="insert('-')"/>
+<input type="button" id="button*" value="*" onclick="insert('*')"/>
+
+
+
+<input type="button" id="button=" value="  =  "  onclick="calculate()"/>
+
+<input type="button" id="reset"  value="Reset" onclick="reset()"/>
+
+</body>
+
+</html>
